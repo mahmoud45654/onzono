@@ -52,11 +52,12 @@ module.exports = {
         'light': 'var(--shadow-light)',
         'medium': 'var(--shadow-medium)',
       },
+      // You can add more theme extensions here, e.g., spacing, borderRadius, etc.
     },
   },
   /**
-   * Tailwind CSS plugins.
-   * Add any official or custom Tailwind plugins here.
+   * Plugins for Tailwind CSS.
+   * For example, adding custom utility plugins.
    */
   plugins: [],
 };
