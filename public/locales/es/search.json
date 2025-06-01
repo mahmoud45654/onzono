@@ -1,1 +1,14 @@
-
+{
+  "title": "Buscar Vuelos",
+  "labelFrom": "Desde",
+  "placeholderFrom": "Ciudad de Salida",
+  "labelTo": "A",
+  "placeholderTo": "Ciudad de Destino",
+  "labelDate": "Fecha",
+  "button": "Buscar",
+  "flightsTab": "Vuelos",
+  "loungesTab": "Salas VIP",
+  "lounges": {
+    "placeholderLocation": "Aeropuerto/Ciudad"
+  }
+}
