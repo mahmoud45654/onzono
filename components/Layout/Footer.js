@@ -40,7 +40,7 @@ const Footer = () => {
             {t('footer.faq')}
           </Link>
           <Link href="/contact" className="text-gray-300 hover:text-white transition-colors duration-300">
-            {t('nav.contact')} {/* يمكن استخدام مفتاح من nav إذا كان هذا هو المكان الوحيد له */}
+            {t('nav.contact')}
           </Link>
         </div>
       </div>
