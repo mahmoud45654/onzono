@@ -1,32 +1,21 @@
 {
-  "nav": {
-    "home": "Inicio",
-    "search": "Buscar",
-    "lounges": "Salas"
-  },
-  "search": {
-    "title": "Buscar vuelos",
-    "from": "Desde",
-    "to": "Hasta",
-    "button": "Buscar"
-  },
-  "results": {
-    "from": "Desde",
-    "to": "Hasta",
-    "price": "Precio",
-    "duration": "Duración"
-  },
-  "lounges": {
-    "location": "Ubicación",
-    "services": "Servicios"
-  },
-  "whatsapp": {
-    "title": "Recordatorio por WhatsApp",
-    "description": "¡Obtén un recordatorio gratuito para tu vuelo!",
-    "button": "Enviar recordatorio",
-    "reminderSent": "¡Recordatorio enviado correctamente!"
-  },
-  "footer": {
-    "rights": "Todos los derechos reservados."
-  }
+  "pageTitle": "Explora Nuestras Salas VIP",
+  "skyLoungeRiyadh": "SkyLounge Riad",
+  "riyadhAirportLocation": "Aeropuerto Internacional Rey Khalid",
+  "wifiService": "Wi-Fi",
+  "snacksService": "Bocadillos",
+  "drinksService": "Bebidas",
+  "riyadhHours": "24/7",
+  "riyadhDescription": "Una lujosa sala VIP que ofrece comodidad y conveniencia para los viajeros en el Aeropuerto Internacional Rey Khalid.",
+  "skyLoungeDubai": "SkyLounge Dubái",
+  "dubaiAirportLocation": "Aeropuerto Internacional de Dubái, Terminal 3",
+  "showersService": "Duchas",
+  "buffetService": "Bufé",
+  "dubaiHours": "06:00 - 23:00",
+  "dubaiDescription": "Experimenta la hospitalidad de clase mundial en la principal sala VIP del aeropuerto de Dubái, diseñada para la relajación y la productividad.",
+  "imageAlt": "Imagen de la sala VIP {name}",
+  "locationLabel": "Ubicación",
+  "servicesLabel": "Servicios",
+  "hoursLabel": "Horario",
+  "contactNumber": "Número de Contacto: {number}"
 }
