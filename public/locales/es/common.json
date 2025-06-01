@@ -1,1 +1,28 @@
-
+{
+  "nav": {
+    "home": "Inicio",
+    "search": "Buscar",
+    "lounges": "Salas VIP",
+    "aboutUs": "Sobre Nosotros",
+    "contact": "Contacto",
+    "signIn": "Iniciar Sesión"
+  },
+  "common": {
+    "cities": {
+      "riyadh": "Riad",
+      "london": "Londres",
+      "jeddah": "Yeda",
+      "dubai": "Dubái",
+      "cairo": "El Cairo",
+      "paris": "París"
+    },
+    "currency": "SAR",
+    "learnMoreButton": "Saber Más"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "faq": "Preguntas Frecuentes"
+  }
+}
