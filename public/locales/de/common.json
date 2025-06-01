@@ -1,1 +1,28 @@
-
+{
+  "nav": {
+    "home": "Startseite",
+    "search": "Suchen",
+    "lounges": "Lounges",
+    "aboutUs": "Über uns",
+    "contact": "Kontakt",
+    "signIn": "Anmelden"
+  },
+  "common": {
+    "cities": {
+      "riyadh": "Riad",
+      "london": "London",
+      "jeddah": "Dschidda",
+      "dubai": "Dubai",
+      "cairo": "Kairo",
+      "paris": "Paris"
+    },
+    "currency": "SAR",
+    "learnMoreButton": "Mehr erfahren"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "faq": "FAQ"
+  }
+}
