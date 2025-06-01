@@ -1,1 +1,6 @@
-
+{
+  "title": "Lembrete por WhatsApp",
+  "description": "Receba um lembrete gratuito para o seu voo ou reserva de hotel via WhatsApp!",
+  "button": "Enviar Lembrete",
+  "reminderSent": "Lembrete enviado com sucesso!"
+}
