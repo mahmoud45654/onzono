@@ -1,1 +1,14 @@
-
+{
+  "title": "ابحث عن الرحلات",
+  "labelFrom": "من",
+  "placeholderFrom": "مدينة المغادرة",
+  "labelTo": "إلى",
+  "placeholderTo": "مدينة الوجهة",
+  "labelDate": "التاريخ",
+  "button": "بحث",
+  "flightsTab": "رحلات طيران",
+  "loungesTab": "صالات المطار",
+  "lounges": {
+    "placeholderLocation": "مطار/مدينة"
+  }
+}
