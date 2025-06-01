@@ -16,6 +16,7 @@ const SUPPORTED_LOCALES = ['en', 'ar', 'es', 'pt', 'de'];
  * Useful for development to see immediate changes.
  * Should typically be false or conditionally true in production environments
  * to avoid performance overhead.
+ * @property {string} localePath - The path to the directory containing translation files.
  */
 const nextI18NextConfig = {
   i18n: {
