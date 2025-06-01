@@ -1,6 +1,14 @@
 // components/UI/WhatsAppReminder.js
 import { useTranslation } from 'next-i18next';
 
+/**
+ * WhatsAppReminder Component
+ *
+ * This component displays a reminder message for users to receive
+ * flight/hotel reminders via WhatsApp.
+ *
+ * @returns {JSX.Element} The WhatsAppReminder component.
+ */
 const WhatsAppReminder = () => {
   const { t } = useTranslation('whatsapp'); // تحديد namespace 'whatsapp'
   return (
