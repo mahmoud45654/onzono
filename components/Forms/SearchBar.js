@@ -124,7 +124,7 @@ const SearchBar = () => {
         ) : (
           <div className="mb-6">
             <label htmlFor="loungeLocation" className="block text-sm font-semibold mb-2 text-text-secondary">
-              {commonT('lounges.locationLabel')}
+              {t('lounges.placeholderLocation')}
             </label>
             <input
               type="text"
