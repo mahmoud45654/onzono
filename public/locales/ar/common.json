@@ -1,1 +1,28 @@
-
+{
+  "nav": {
+    "home": "الرئيسية",
+    "search": "البحث",
+    "lounges": "الصالات",
+    "aboutUs": "من نحن",
+    "contact": "اتصل بنا",
+    "signIn": "تسجيل الدخول"
+  },
+  "common": {
+    "cities": {
+      "riyadh": "الرياض",
+      "london": "لندن",
+      "jeddah": "جدة",
+      "dubai": "دبي",
+      "cairo": "القاهرة",
+      "paris": "باريس"
+    },
+    "currency": "ر.س",
+    "learnMoreButton": "اعرف المزيد"
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "faq": "الأسئلة الشائعة"
+  }
+}
