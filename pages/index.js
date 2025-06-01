@@ -2,11 +2,11 @@
 import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Navbar from '../components/Layout/Navbar'; // تحديث المسار
-import SearchBar from '../components/Forms/SearchBar'; // تحديث المسار
-import ResultsCard from '../components/Cards/ResultsCard'; // تحديث المسار
-import Footer from '../components/Layout/Footer'; // تحديث المسار
-import WhatsAppReminder from '../components/UI/WhatsAppReminder'; // تحديث المسار
+import Navbar from '../components/Layout/Navbar';
+import SearchBar from '../components/Forms/SearchBar';
+import ResultsCard from '../components/Cards/ResultsCard';
+import Footer from '../components/Layout/Footer';
+import WhatsAppReminder from '../components/UI/WhatsAppReminder';
 
 /**
  * Home Page Component
