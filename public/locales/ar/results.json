@@ -1,1 +1,8 @@
-
+{
+  "flightTo": "رحلة إلى {to}",
+  "hotelIn": "فندق في {to}",
+  "fromLabel": "من",
+  "priceLabel": "السعر",
+  "durationLabel": "المدة",
+  "imageAlt": "{type} إلى {to}"
+}
