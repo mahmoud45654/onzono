@@ -1,1 +1,14 @@
-
+{
+  "title": "Pesquisar Voos",
+  "labelFrom": "De",
+  "placeholderFrom": "Cidade de Partida",
+  "labelTo": "Para",
+  "placeholderTo": "Cidade de Destino",
+  "labelDate": "Data",
+  "button": "Pesquisar",
+  "flightsTab": "Voos",
+  "loungesTab": "Lounges",
+  "lounges": {
+    "placeholderLocation": "Aeroporto/Cidade"
+  }
+}
