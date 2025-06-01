@@ -1,1 +1,14 @@
-
+{
+  "title": "Flüge suchen",
+  "labelFrom": "Von",
+  "placeholderFrom": "Abflugort",
+  "labelTo": "Nach",
+  "placeholderTo": "Zielort",
+  "labelDate": "Datum",
+  "button": "Suchen",
+  "flightsTab": "Flüge",
+  "loungesTab": "Lounges",
+  "lounges": {
+    "placeholderLocation": "Flughafen/Stadt"
+  }
+}
