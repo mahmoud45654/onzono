@@ -11,26 +11,25 @@
 * **🏨 Lounge Details:** Dedicated sections and cards to display information about airport lounges.
 * **📦 Component-Based Architecture:** Organized and reusable React components for maintainability and scalability.
 * **⚙️ Professional Tooling:** Integrated ESLint for code quality and Prettier for consistent code formatting.
-* **☁️ Vercel Deployment Ready:** Optimized for easy deployment to Vercel, ensuring fast and reliable hosting.
-
-## 📸 Screenshots / Demo
+* **☁️ Vercel Deployment Ready:** Optimized for easy deployment to Vercel, ensuring fast and reliable performance.
 
 ## 🛠️ Technologies Used
 
-* **Next.js 14+** - React framework for production
-* **React 18+** - JavaScript library for building user interfaces
-* **Tailwind CSS 3+** - A utility-first CSS framework
-* **next-i18next 15+** - Internationalization for Next.js
-* **ESLint** - Pluggable JavaScript linter
-* **Prettier** - Opinionated code formatter
+* **Next.js 14+:** React framework for production.
+* **React 18+:** JavaScript library for building user interfaces.
+* **Tailwind CSS 3+:** A utility-first CSS framework for rapid UI development.
+* **next-i18next 15+:** Internationalization library for Next.js.
+* **ESLint:** Pluggable JavaScript linter.
+* **Prettier:** Code formatter.
 
 ## 🚀 Getting Started
 
-Follow these steps to get your development environment set up.
+Follow these steps to set up the project locally.
 
 ### Prerequisites
 
-Make sure you have Node.js (v18.x or higher recommended) and npm (v9.x or higher) installed.
+* Node.js (LTS version recommended)
+* npm or yarn
 
 ### Installation
 
@@ -68,7 +67,7 @@ Make sure you have Node.js (v18.x or higher recommended) and npm (v9.x or higher
 To add or modify translations:
 
 1.  Navigate to the `public/locales` directory.
-2.  Inside each language folder (e.g., `en`, `ar`), you'll find JSON files (e.g., `common.json`, `home.json`, `search.json`, `searchPage.json`).
+2.  Inside each language folder (e.g., `en`, `ar`), you'll find JSON files (e.g., `common.json`, `home.json`, `search.json`, `lounges.json`, `whatsapp.json`, `results.json`).
 3.  Add your translation keys and values to the respective JSON files.
 4.  Ensure that `next-i18next.config.js` includes all supported locales.
 
@@ -82,15 +81,15 @@ To add or modify translations:
     ```bash
     npm run format
     ```
-* **Check Formatting (without fixing):**
-    ```bash
-    npm run check-format
-    ```
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request.
+We welcome contributions! Please see our `CONTRIBUTING.md` (if exists) for guidelines on how to contribute to this project.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## 📧 Contact
+
+For any inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
