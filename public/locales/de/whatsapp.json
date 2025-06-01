@@ -1,1 +1,6 @@
-
+{
+  "title": "WhatsApp Erinnerung",
+  "description": "Erhalten Sie eine kostenlose Erinnerung für Ihren Flug oder Ihre Hotelbuchung per WhatsApp!",
+  "button": "Erinnerung senden",
+  "reminderSent": "Erinnerung erfolgreich gesendet!"
+}
