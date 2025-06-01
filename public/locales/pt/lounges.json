@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Início",
+    "search": "Buscar",
+    "lounges": "Salas"
+  },
+  "search": {
+    "title": "Pesquisar voos",
+    "from": "De",
+    "to": "Para",
+    "button": "Pesquisar"
+  },
+  "results": {
+    "from": "De",
+    "to": "Para",
+    "price": "Preço",
+    "duration": "Duração"
+  },
+  "lounges": {
+    "location": "Localização",
+    "services": "Serviços"
+  },
+  "whatsapp": {
+    "title": "Lembrete via WhatsApp",
+    "description": "Receba um lembrete gratuito para o seu voo!",
+    "button": "Enviar lembrete",
+    "reminderSent": "Lembrete enviado com sucesso!"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}

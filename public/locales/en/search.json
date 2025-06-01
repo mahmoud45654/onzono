@@ -1,0 +1,14 @@
+{
+  "title": "Search Flights",
+  "labelFrom": "From",
+  "placeholderFrom": "Departure City",
+  "labelTo": "To",
+  "placeholderTo": "Destination City",
+  "labelDate": "Date",
+  "button": "Search",
+  "flightsTab": "Flights",
+  "loungesTab": "Lounges",
+  "lounges": {
+    "placeholderLocation": "Airport/City"
+  }
+}

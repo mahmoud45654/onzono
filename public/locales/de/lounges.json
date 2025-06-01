@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "search": "Suche",
+    "lounges": "Lounges"
+  },
+  "search": {
+    "title": "Flüge suchen",
+    "from": "Von",
+    "to": "Nach",
+    "button": "Suchen"
+  },
+  "results": {
+    "from": "Von",
+    "to": "Nach",
+    "price": "Preis",
+    "duration": "Dauer"
+  },
+  "lounges": {
+    "location": "Standort",
+    "services": "Dienstleistungen"
+  },
+  "whatsapp": {
+    "title": "WhatsApp-Erinnerung",
+    "description": "Erhalten Sie eine kostenlose Erinnerung für Ihren Flug!",
+    "button": "Erinnerung senden",
+    "reminderSent": "Erinnerung erfolgreich gesendet!"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

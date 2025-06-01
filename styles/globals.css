@@ -1,0 +1,104 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables */
+:root {
+  --primary-color: #3882F6; /* أزرق مشرق */
+  --primary-dark: #2563EB;  /* أزرق أغمق */
+  --secondary-color: #10B981; /* أخضر */
+  --text-primary: #1F2937;  /* نص غامق جداً */
+  --text-secondary: #4B5563; /* نص رمادي متوسط */
+  --background-light: #F9FAFB; /* خلفية فاتحة جداً */
+  --background-dark: #E5E7EB;  /* خلفية رمادية فاتحة */
+  --white: #FFFFFF;
+  --border-color: #D1D5DB; /* لون حدود رمادي */
+
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-medium: rgba(0, 0, 0, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* الخط الأساسي */
+  background-color: var(--background-light); /* استخدام لون الخلفية المتغير */
+  color: var(--text-primary); /* استخدام لون النص الأساسي */
+  margin: 0;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global Layout for Next.js app */
+#__next {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* لجعل الخلفية ثابتة أثناء التمرير */
+  min-height: 100vh; /* تأكد من أن الخلفية تغطي الشاشة بالكامل */
+  display: flex; /* مهم لـ flex-col و mt-auto */
+  flex-direction: column; /* مهم لـ flex-col و mt-auto */
+}
+
+/* Components Styles */
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Navbar Link */
+.nav-link {
+  @apply text-white text-lg font-semibold hover:text-primary-color transition-colors duration-300;
+}
+
+/* Card Base Style */
+.card {
+  @apply bg-white bg-opacity-90 p-6 rounded-lg shadow-xl;
+}
+
+/* Button Base Style */
+.btn {
+  @apply bg-primary-color text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-primary-dark transition-colors duration-300 flex items-center justify-center space-x-2;
+}
+
+/* Outline Button Style */
+.btn-outline {
+  @apply bg-transparent border-2 border-primary-color text-primary-color font-bold py-3 px-6 rounded-lg hover:bg-primary-color hover:text-white transition-colors duration-300 flex items-center justify-center space-x-2;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+  @apply p-3 border border-border-color rounded-md focus:ring-2 focus:ring-primary-color focus:border-transparent text-text-primary bg-white;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fadeIn {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

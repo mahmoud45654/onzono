@@ -1,0 +1,30 @@
+{
+  "name": "onzono-skyconnect",
+  "version": "1.0.0",
+  "description": "A Next.js application for seamless flight and lounge bookings, featuring internationalization and a modern UI.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
+  },
+  "dependencies": {
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next-i18next": "^15.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.3",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.3"
+  },
+  "author": "Your Name or Company Name",
+  "license": "MIT"
+}

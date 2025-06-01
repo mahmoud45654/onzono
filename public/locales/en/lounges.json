@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Explore Our Lounges",
+  "skyLoungeRiyadh": "SkyLounge Riyadh",
+  "riyadhAirportLocation": "King Khalid International Airport",
+  "wifiService": "Wi-Fi",
+  "snacksService": "Snacks",
+  "drinksService": "Drinks",
+  "riyadhHours": "24/7",
+  "riyadhDescription": "A luxurious lounge offering comfort and convenience for travelers at King Khalid International Airport.",
+  "skyLoungeDubai": "SkyLounge Dubai",
+  "dubaiAirportLocation": "Dubai International Airport, Terminal 3",
+  "showersService": "Showers",
+  "buffetService": "Buffet",
+  "dubaiHours": "06:00 - 23:00",
+  "dubaiDescription": "Experience world-class hospitality in Dubai's premier airport lounge, designed for relaxation and productivity.",
+  "imageAlt": "Image of {name} lounge",
+  "locationLabel": "Location",
+  "servicesLabel": "Services",
+  "hoursLabel": "Hours",
+  "contactNumber": "Contact Number: {number}"
+}

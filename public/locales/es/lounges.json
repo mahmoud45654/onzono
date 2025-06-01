@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "search": "Buscar",
+    "lounges": "Salas"
+  },
+  "search": {
+    "title": "Buscar vuelos",
+    "from": "Desde",
+    "to": "Hasta",
+    "button": "Buscar"
+  },
+  "results": {
+    "from": "Desde",
+    "to": "Hasta",
+    "price": "Precio",
+    "duration": "Duración"
+  },
+  "lounges": {
+    "location": "Ubicación",
+    "services": "Servicios"
+  },
+  "whatsapp": {
+    "title": "Recordatorio por WhatsApp",
+    "description": "¡Obtén un recordatorio gratuito para tu vuelo!",
+    "button": "Enviar recordatorio",
+    "reminderSent": "¡Recordatorio enviado correctamente!"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

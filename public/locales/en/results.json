@@ -1,0 +1,8 @@
+{
+  "flightTo": "Flight to {to}",
+  "hotelIn": "Hotel in {to}",
+  "fromLabel": "From",
+  "priceLabel": "Price",
+  "durationLabel": "Duration",
+  "imageAlt": "{type} to {to}"
+}
