@@ -1,32 +1,21 @@
 {
-  "nav": {
-    "home": "Startseite",
-    "search": "Suche",
-    "lounges": "Lounges"
-  },
-  "search": {
-    "title": "Flüge suchen",
-    "from": "Von",
-    "to": "Nach",
-    "button": "Suchen"
-  },
-  "results": {
-    "from": "Von",
-    "to": "Nach",
-    "price": "Preis",
-    "duration": "Dauer"
-  },
-  "lounges": {
-    "location": "Standort",
-    "services": "Dienstleistungen"
-  },
-  "whatsapp": {
-    "title": "WhatsApp-Erinnerung",
-    "description": "Erhalten Sie eine kostenlose Erinnerung für Ihren Flug!",
-    "button": "Erinnerung senden",
-    "reminderSent": "Erinnerung erfolgreich gesendet!"
-  },
-  "footer": {
-    "rights": "Alle Rechte vorbehalten."
-  }
+  "pageTitle": "Entdecken Sie unsere Lounges",
+  "skyLoungeRiyadh": "SkyLounge Riad",
+  "riyadhAirportLocation": "König-Khalid-Internationale Flughafen",
+  "wifiService": "WLAN",
+  "snacksService": "Snacks",
+  "drinksService": "Getränke",
+  "riyadhHours": "24/7",
+  "riyadhDescription": "Eine luxuriöse Lounge, die Reisenden am König-Khalid-Internationalen Flughafen Komfort und Bequemlichkeit bietet.",
+  "skyLoungeDubai": "SkyLounge Dubai",
+  "dubaiAirportLocation": "Dubai International Airport, Terminal 3",
+  "showersService": "Duschen",
+  "buffetService": "Buffet",
+  "dubaiHours": "06:00 - 23:00",
+  "dubaiDescription": "Erleben Sie Weltklasse-Gastfreundschaft in Dubais erstklassiger Flughafen-Lounge, die auf Entspannung und Produktivität ausgelegt ist.",
+  "imageAlt": "Bild der {name} Lounge",
+  "locationLabel": "Standort",
+  "servicesLabel": "Dienstleistungen",
+  "hoursLabel": "Öffnungszeiten",
+  "contactNumber": "Kontaktnummer: {number}"
 }
