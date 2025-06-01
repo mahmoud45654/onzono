@@ -2,17 +2,27 @@
 import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Navbar from '../components/Navbar';
-import SearchBar from '../components/SearchBar';
-import ResultsCard from '../components/ResultsCard';
-import Footer from '../components/Footer';
-import WhatsAppReminder from '../components/WhatsAppReminder';
+import Navbar from '../components/Layout/Navbar'; // تحديث المسار
+import SearchBar from '../components/Forms/SearchBar'; // تحديث المسار
+import ResultsCard from '../components/Cards/ResultsCard'; // تحديث المسار
+import Footer from '../components/Layout/Footer'; // تحديث المسار
+import WhatsAppReminder from '../components/UI/WhatsAppReminder'; // تحديث المسار
 
+/**
+ * Home Page Component
+ *
+ * This component represents the main landing page of the application.
+ * It integrates the Navbar, SearchBar, displays a list of popular flights,
+ * and includes the Footer. The background image and overlay are handled
+ * by the global CSS in _app.js.
+ *
+ * @returns {JSX.Element} The Home page component.
+ */
 export default function Home() {
-  // جلب الـ namespaces التي تحتاجها هذه الصفحة
-  const { t } = useTranslation(['common', 'home', 'search', 'whatsapp', 'footer']);
+  // تحديد الـ namespaces التي تحتاجها هذه الصفحة ومكوناتها الفرعية
+  const { t } = useTranslation(['common', 'home', 'search', 'results']);
 
-  // بيانات وهمية مع مفاتيح ترجمة للمدن
+  // بيانات وهمية محسّنة لتتوافق مع الـ props الجديدة لـ ResultsCard
   const mockFlights = [
     {
       id: 'flight-001',
@@ -29,8 +39,8 @@ export default function Home() {
       type: 'flight',
       from: t('common.cities.jeddah'),
       to: t('common.cities.dubai'),
-      price: '1200',
-      duration: '3h 00m',
+      price: '850',
+      duration: '2h 15m',
       image: '/images/dubai-skyline.jpg',
       detailsLink: '/flights/flight-002',
     },
@@ -47,7 +57,8 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen">
+    // الحفاظ على flex-col min-h-screen من _app.js لضمان أن الفوتر يلتصق بالأسفل
+    <>
       <Navbar />
       <main className="flex-grow flex flex-col items-center justify-center p-4">
         <SearchBar />
@@ -65,15 +76,23 @@ export default function Home() {
         <WhatsAppReminder />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 
-export async function getServerSideProps({ locale }) {
+/**
+ * Ensures that translations are loaded for the server-side rendering
+ * by fetching the necessary namespaces.
+ *
+ * @param {object} context - The Next.js context object.
+ * @param {string} context.locale - The current locale.
+ * @returns {object} Props containing translations.
+ */
+export async function getStaticProps({ locale }) {
   return {
     props: {
-      // هنا تحدد جميع الـ namespaces التي تحتاجها هذه الصفحة
-      ...(await serverSideTranslations(locale, ['common', 'home', 'search', 'whatsapp', 'footer'])),
+      ...(await serverSideTranslations(locale, ['common', 'home', 'search', 'results', 'whatsapp'])),
+      // will be passed to the page component as props
     },
   };
 }
