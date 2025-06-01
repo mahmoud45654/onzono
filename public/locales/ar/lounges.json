@@ -1,32 +1,21 @@
 {
-  "nav": {
-    "home": "الرئيسية",
-    "search": "البحث",
-    "lounges": "الصالات"
-  },
-  "search": {
-    "title": "ابحث عن الرحلات",
-    "from": "من",
-    "to": "إلى",
-    "button": "بحث"
-  },
-  "results": {
-    "from": "من",
-    "to": "إلى",
-    "price": "السعر",
-    "duration": "المدة"
-  },
-  "lounges": {
-    "location": "الموقع",
-    "services": "الخدمات"
-  },
-  "whatsapp": {
-    "title": "تذكير عبر واتساب",
-    "description": "احصل على تذكير مجاني لرحلتك!",
-    "button": "أرسل التذكير",
-    "reminderSent": "تم إرسال التذكير بنجاح!"
-  },
-  "footer": {
-    "rights": "جميع الحقوق محفوظة."
-  }
+  "pageTitle": "استكشف صالاتنا",
+  "skyLoungeRiyadh": "سكاي لاونج الرياض",
+  "riyadhAirportLocation": "مطار الملك خالد الدولي",
+  "wifiService": "واي فاي",
+  "snacksService": "وجبات خفيفة",
+  "drinksService": "مشروبات",
+  "riyadhHours": "متاح 24/7",
+  "riyadhDescription": "صالة فاخرة توفر الراحة والملاءمة للمسافرين في مطار الملك خالد الدولي.",
+  "skyLoungeDubai": "سكاي لاونج دبي",
+  "dubaiAirportLocation": "مطار دبي الدولي، مبنى رقم 3",
+  "showersService": "دشاشات",
+  "buffetService": "بوفيه",
+  "dubaiHours": "06:00 - 23:00",
+  "dubaiDescription": "جرب الضيافة عالمية المستوى في صالة المطار الرائدة بدبي، المصممة للاسترخاء والإنتاجية.",
+  "imageAlt": "صورة صالة {name}",
+  "locationLabel": "الموقع",
+  "servicesLabel": "الخدمات",
+  "hoursLabel": "ساعات العمل",
+  "contactNumber": "رقم الاتصال: {number}"
 }
