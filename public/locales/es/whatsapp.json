@@ -1,1 +1,6 @@
-
+{
+  "title": "Recordatorio por WhatsApp",
+  "description": "¡Recibe un recordatorio gratuito para tu vuelo o reserva de hotel por WhatsApp!",
+  "button": "Enviar Recordatorio",
+  "reminderSent": "¡Recordatorio enviado con éxito!"
+}
